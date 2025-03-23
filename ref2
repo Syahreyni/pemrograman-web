@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registrasi Akun</title>
+</head>
+<body>
+
+<h1>Registrasi Akun</h1>
+
+<h2>Formulir Registrasi</h2>
+
+<form>
+  <label for="nama">Masukkan nama:</label><br>
+  <input type="text" id="nama" name="nama" value="Muhammad Fauzan"><br><br>
+
+  <label for="nim">Masukkan NIM:</label><br>
+  <input type="text" id="nim" name="nim" value="0110219076"><br><br>
+
+  <label for="email">Masukkan email:</label><br>
+  <input type="email" id="email" name="email" value="MuhammadFauzan@gmail.com"><br><br>
+
+  <label>Jenis Kelamin:</label><br>
+  <input type="radio" id="laki" name="jenis_kelamin" value="laki-laki">
+  <label for="laki">Laki-Laki</label><br>
+  <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+  <label for="perempuan">Perempuan</label><br><br>
+
+  <label for="agama">Agama:</label><br>
+  <select id="agama" name="agama">
+    <option value="islam">Islam</option>
+    </select><br><br>
+
+
+  <label for="password">Masukkan password:</label><br>
+  <input type="password" id="password" name="password" value="admin123"><br><br>
+
+  <label for="konfirmasi_password">Konfirmasi password:</label><br>
+  <input type="password" id="konfirmasi_password" name="konfirmasi_password"><br><br>
+
+  <input type="submit" value="Daftar">
+</form>
+
+</body>
+</html>
